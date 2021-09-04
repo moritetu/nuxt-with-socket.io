@@ -42,8 +42,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '~/modules/socket.io.js',
-    // '~/modules/socket.io-hook.js',
+    // '~/modules/socket.io.js',
+    '~/modules/socket.io-hook.js',
   ],
 
   serverMiddleware: [{ path: '/', handler: '~/server/index.js' }],
